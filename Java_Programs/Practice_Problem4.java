@@ -9,6 +9,6 @@ public class Practice_Problem4 {
 
         double result = (f*b)+(i%c)-(d*s);
         System.out.println("reuslt: "+result);
-        
+
     }
 }
