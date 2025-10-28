@@ -1,16 +1,17 @@
 public class Bin_To_Dec{
-    public static void BinToDec(int binNum){
+    public static void BinToDec(int n){
+        int myNum = n;
         int pow = 0;
         int decNum =0;
 
-        while(binNum >0){
-            int lastDigit = binNum%10;
+        while(n >0){
+            int lastDigit = n%10;
             decNum = decNum + (lastDigit*(int)Math.pow(2,pow));
 
             pow++;
-            binNum = binNum/10;
+            n = n/10;
         }
-        System.out.println(decNum);
+        System.out.println("Binary form of "+myNum+"= "+decNum);
     }
     public static void main(String[] args) {
         BinToDec(101);
