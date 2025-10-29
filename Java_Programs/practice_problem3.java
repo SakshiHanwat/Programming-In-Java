@@ -10,10 +10,9 @@ public class practice_problem3 {
         float Total_Cost = pencil+ pen+ eraser;
         System.out.println("Total_Cost = "+Total_Cost);
 
-        //18% GST added on price
-        float GST = Total_Cost*0.18f;
-
-        System.out.println("GST Added cost = "+ GST);
+        //Add on - with 18% tax 
+        float newTotal = Total_Cost + (0.18f * Total_Cost);
+        System.out.println("Bill with 18% tax : "+newTotal);
         
     }
 }
