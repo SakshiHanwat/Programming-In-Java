@@ -26,3 +26,4 @@ public class Majority_Element {
     }
 }
 //time complexity : 0(n^2)
+//slow 

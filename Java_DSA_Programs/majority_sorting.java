@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
-public class MajorityElement {
+public class majority_sorting
+ {
     public static int majorityElement(int[] nums) {
         int n = nums.length;
 
@@ -36,3 +37,5 @@ public class MajorityElement {
         System.out.println("Example 2 Output: " + majorityElement(nums2)); // Output: 2
     }
 }
+// TIME COMPLEXITY - O(log n)
+// better than brute force 

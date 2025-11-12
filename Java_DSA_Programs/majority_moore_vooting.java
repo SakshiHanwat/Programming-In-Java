@@ -1,4 +1,5 @@
-public class MajorityElement {
+public class majority_moore_vooting
+ {
     public static int majorityElement(int[] nums) {
         int freq = 0;   // frequency counter
         int ans = 0;    // potential majority element
@@ -26,3 +27,5 @@ public class MajorityElement {
         System.out.println("Example 2 Output: " + majorityElement(nums2)); // Output: 2
     }
 }
+// TIME COMPLEXITY -- O(N)
+//best in all aproaches
